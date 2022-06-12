@@ -11,14 +11,11 @@ services:
       # - dev:/dev
       - etc:/etc
       - home:/home
-      - lib:/lib
-      - lib64:/lib64
-      # - mnt:/mnt
+      - mnt:/mnt
       # - opt:/opt
       # - proc:/proc
       - root:/root
       - run:/run
-      - sbin:/sbin
       - srv:/srv
       # - sys:/sys
       - tmp:/tmp
@@ -31,14 +28,11 @@ volumes:
   dev:
   etc:
   home:
-  lib:
-  lib64:
   mnt:
   opt:
   proc:
   root:
   run:
-  sbin:
   srv:
   sys:
   tmp:
