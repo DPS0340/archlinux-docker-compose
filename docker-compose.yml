@@ -1,0 +1,46 @@
+version: '3.9'
+
+services:
+  archlinux:
+    platform: linux/amd64
+    image: archlinux:latest
+    tty: true
+    volumes:
+      - bin:/bin
+      # - boot:/boot
+      # - dev:/dev
+      - etc:/etc
+      - home:/home
+      - lib:/lib
+      - lib64:/lib64
+      # - mnt:/mnt
+      # - opt:/opt
+      # - proc:/proc
+      - root:/root
+      # - run:/run
+      - sbin:/sbin
+      # - srv:/srv
+      # - sys:/sys
+      - tmp:/tmp
+      - usr:/usr
+      - var:/var
+
+volumes:
+  bin:
+  boot:
+  dev:
+  etc:
+  home:
+  lib:
+  lib64:
+  mnt:
+  opt:
+  proc:
+  root:
+  run:
+  sbin:
+  srv:
+  sys:
+  tmp:
+  usr:
+  var:
