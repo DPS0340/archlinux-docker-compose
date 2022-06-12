@@ -17,9 +17,9 @@ services:
       # - opt:/opt
       # - proc:/proc
       - root:/root
-      # - run:/run
+      - run:/run
       - sbin:/sbin
-      # - srv:/srv
+      - srv:/srv
       # - sys:/sys
       - tmp:/tmp
       - usr:/usr
